@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Premier Soccer Store ⚽</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>Premier Soccer Store ⚽</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#clubs">Club Jerseys</a>
+<a href="#retro">Retro Jerseys</a>
+<a href="#cart">Cart 🛒</a>
+</nav>
+
+
+<input 
+id="search"
+type="text"
+placeholder="Search jerseys..."
+onkeyup="searchProducts()">
+
+
+</header>
+
+
+
+<section class="hero">
+
+<h2>Wear The Game</h2>
+
+<p>Premium Soccer Jerseys For Every Fan</p>
+
+<button>Shop Now</button>
+
+</section>
+
+
+
+<h2 id="clubs" class="title">
+Popular Club Jerseys
+</h2>
+
+
+
+<div class="products">
+
+
+
+<div class="card">
+
+<img src="images/clubs/real-madrid.jpg">
+
+<h3>Real Madrid Jersey</h3>
+
+<select>
+<option>Home Jersey</option>
+<option>Away Jersey</option>
+<option>Third Jersey</option>
+</select>
+
+
+<select>
+<option>Small</option>
+<option>Medium</option>
+<option>Large</option>
+<option>XL</option>
+</select>
+
+
+<input placeholder="Player Name">
+
+<select>
+<option>No Badge</option>
+<option>Champions League Badge</option>
+<option>League Badge</option>
+</select>
+
+
+<p>Jersey Only - $60</p>
+
+<p>Name + Badge - $70</p>
+
+<p>Retro Jersey - $75</p>
+
+
+<button onclick="addToCart('Real Madrid Jersey')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="images/clubs/barcelona.jpg">
+
+<h3>Barcelona Jersey</h3>
+
+<select>
+<option>Home Jersey</option>
+<option>Away Jersey</option>
+<option>Third Jersey</option>
+</select>
+
+
+<select>
+<option>Small</option>
+<option>Medium</option>
+<option>Large</option>
+<option>XL</option>
+</select>
+
+
+<input placeholder="Player Name">
+
+
+<select>
+<option>No Badge</option>
+<option>Champions League Badge</option>
+<option>League Badge</option>
+</select>
+
+
+<p>Jersey Only - $60</p>
+
+<p>Name + Badge - $70</p>
+
+<p>Retro Jersey - $75</p>
+
+
+<button onclick="addToCart('Barcelona Jersey')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/clubs/man-city.jpg">
+
+<h3>Manchester City Jersey</h3>
+
+<select>
+<option>Home Jersey</option>
+<option>Away Jersey</option>
+<option>Third Jersey</option>
+</select>
+
+
+<select>
+<option>Small</option>
+<option>Medium</option>
+<option>Large</option>
+<option>XL</option>
+</select>
+
+
+<input placeholder="Player Name">
+
+
+<select>
+<option>No Badge</option>
+<option>Champions League Badge</option>
+<option>League Badge</option>
+</select>
+
+
+<p>Jersey Only - $60</p>
+
+<p>Name + Badge - $70</p>
+
+<p>Retro Jersey - $75</p>
+
+
+<button onclick="addToCart('Manchester City Jersey')">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<h2 id="retro" class="title">
+Popular Retro Jerseys 🕰️
+</h2>
+
+
+<div class="products">
+
+
+<div class="card">
+
+<img src="images/clubs/retro-manchester.jpg">
+
+<h3>Manchester United 1999 Retro Jersey</h3>
+
+<p>Retro Jersey - $75</p>
+
+<button onclick="addToCart('Manchester United Retro')">
+Add To Cart
+</button>
+
+</div>
+
+
+<div class="card">
+
+<img src="images/clubs/retro-brazil.jpg">
+
+<h3>Brazil Classic Retro Jersey</h3>
+
+<p>Retro Jersey - $75</p>
+
+<button onclick="addToCart('Brazil Retro')">
+Add To Cart
+</button>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<h2 id="cart">
+Shopping Cart 🛒
+</h2>
+
+
+<div id="cartItems">
+
+Cart is empty
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
